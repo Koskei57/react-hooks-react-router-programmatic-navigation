@@ -21,7 +21,7 @@ function Navbar({ setIsLoggedIn }) {
   return (
     <div>
       <NavLink
-        to="/"
+        to="/home"
         /* set exact so it knows to only set activeStyle when route is deeply equal to link */
         exact
         /* add styling to Navlink */
